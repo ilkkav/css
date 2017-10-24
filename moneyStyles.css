@@ -1,0 +1,41 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  font-size: 20;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #E26A6A;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6C7A89;
+}
+
+.flex-item {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  margin: 20px;
+  width: 90%;
+  font-size: 18px;
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+}
